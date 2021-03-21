@@ -37,3 +37,20 @@ main {
 .row-content {
   padding: 20px;
 }
+
+.btn-outline-info {
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-outline-info:hover {
+  background-color: #fafafa;
+  color:black;
+  font-weight: bold;
+}
+
+.btn-outline-info:active {
+  background-color: #fafafa;
+  color:black;
+  font-weight: bold;
+}
