@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import  {NavLink } from 'react-router-dom';
 
 
 export default class Navbar extends Component {
@@ -9,7 +10,7 @@ export default class Navbar extends Component {
                  <div className="container">
                 <div className="d-flex logo align-items-center">
                 <img  src="/assets/images/soundgaze-logo-white.svg" alt="soundgaze logo" width="30" />
-                    <a href="#navbar" className="navbar-brand"> <span className="ml-2">SoundGaze</span></a>
+                    <NavLink to="/home</div>" className="navbar-brand"> <span className="ml-2">SoundGaze</span></NavLink>
                 </div>
     
                 {/* <!-- Navbar  mobile--> */}
@@ -21,13 +22,10 @@ export default class Navbar extends Component {
                 <div className="collapse navbar-collapse" id="soundgazeNavbar">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="www.facebook.com">Book Now</a>
+                            <NavLink className="nav-link" to="/book-room">Book Now</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="www.instagram.com">Rent Monthly</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="www.facebook.com">contact</a>
+                            <NavLink className="nav-link" to="/contact">contact</NavLink>
                         </li>
                     </ul>
                     <span className="navbar-text ml-auto nav-link">
