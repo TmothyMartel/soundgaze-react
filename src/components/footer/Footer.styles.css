@@ -1,0 +1,14 @@
+footer {
+    height: 144px;
+}
+
+.copywrite {
+    font-family: 'Lora', serif;
+    text-align: center;
+    color:  rgb(230, 230, 230);
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+.social-icon {
+    padding: 2px 5px;
+}

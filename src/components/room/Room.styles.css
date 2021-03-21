@@ -1,0 +1,42 @@
+.card-header {
+    background: linear-gradient(180deg, #255AAA 0%, rgba(0, 0, 0, 0.57) 100%), #255AAA;
+}
+
+.room-card {
+    border: 2px solid #2355a1;
+    max-width: 25rem;
+    margin: 5px 10px;
+}
+
+.room-card-body {
+    background-color: #181d1d;
+}
+
+.tab {
+    background: linear-gradient( 
+        180deg
+         , #255AAA 0%, rgba(0, 0, 0, 0.47) 100%), #255AAA;
+            border: 1px solid #3d3d3d;
+            margin-bottom: 10px;
+            padding: 5px;
+}
+
+.room-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: space-between;
+    list-style: initial;
+    margin-left: 15px;
+}
+.room-details-item {
+    font-size: .80rem;
+    flex: 50%;
+    padding-top: 5px;
+}
+
+.room-details-equip {
+    font-size: .80rem;
+    padding-top: 5px;
+}

@@ -1,0 +1,14 @@
+.hero-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.hero-text {
+    font-size: 3.5rem;
+}
+
+.jumbotron {
+    background: url(rehearsal-hero.jpg) center no-repeat;
+    background-size: cover;
+    min-height:40vh;
+}
