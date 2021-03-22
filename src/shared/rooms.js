@@ -25,7 +25,7 @@ export const ROOMS = [
         roomType: "rehersal",
         roomPrice: "$25/hr",
         roomImage: "/assets/images/jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg",
-        roomDescription: "A great sounding 250 square foot space with professionally designed acoustic treatments including polycylindrical diffusers and broadband absorbers. Fits 6 comfortably.",
+        roomDescription: "A great sounding 250 square foot space with professionally designed acoustic treatments. Fits 6 comfortably.",
         equipment: [
             "Marshall Guitar Cabinet Amp w/ external Head Amp", 
             "Fender Princeton Guitar Amp",
@@ -40,7 +40,7 @@ export const ROOMS = [
     },
     {
         id: 3,
-        roomName: "Corner Room",
+        roomName: "Recording Studio",
         roomType: "recording Studio",
         roomPrice: "$50/hr",
         roomImage: "/assets/images/marc-fanelli-isla-xo4ValczbuA-unsplash.jpg",

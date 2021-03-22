@@ -10,6 +10,10 @@
 .card-header {
     background: linear-gradient(180deg, #255AAA 0%, rgba(0, 0, 0, 0.57) 100%), #255AAA;
 }
+.card-title {
+    font-family: 'Lora', serif;
+    font-size: 1.50rem;
+}
 
 .room-card {
     padding: 0; 
@@ -18,6 +22,17 @@
     margin: 5px 10px;
 }
 
-.card-body {
+.card {
     background-color: #181d1d;
+}
+
+.btn {
+    align-self: center;
+}
+
+.reserve-btn {
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+    max-height: 78px;
 }

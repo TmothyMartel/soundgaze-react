@@ -13,14 +13,16 @@ function RoomCard(props) {
                 return (
                     <Card key={room.id} className="card room-card col-md">
                     <CardBody className="card-body room-card-body">
-                        <CardTitle className="card-title room-card-title">{room.roomName}</CardTitle>
+                        <CardTitle className="card-title">{room.roomName}</CardTitle>
                         <CardSubtitle>{ room.roomPrice}</CardSubtitle>
                     </CardBody >
                     <img width="100%" src={room.roomImage} alt={room.roomDescription} />
                     <CardBody>
                         <CardText>{room.roomDescription}</CardText>
-                        <Button outline color="info">Reserve this room</Button>
                     </CardBody>
+                    <div className="card-body mx-auto reserve-btn">
+                        <Button outline color="info">Reserve this room</Button>
+                    </div>
                     </Card>
                 )
             })}
