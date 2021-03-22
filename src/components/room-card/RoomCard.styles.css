@@ -1,0 +1,23 @@
+.rooms-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card-header {
+    background: linear-gradient(180deg, #255AAA 0%, rgba(0, 0, 0, 0.57) 100%), #255AAA;
+}
+
+.room-card {
+    padding: 0; 
+    border: 2px solid #2355a1;
+    max-width: 25rem;
+    margin: 5px 10px;
+}
+
+.card-body {
+    background-color: #181d1d;
+}

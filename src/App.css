@@ -31,11 +31,15 @@ main {
 }
 
 .container {
-  max-width: 1000px
+  max-width: 1000px;
 }
 
 .row-content {
   padding: 20px;
+}
+
+.btn {
+  background-color: linear-gradient(180deg, #255AAA 0%, rgba(0, 0, 0, 0.57) 100%), #255AAA;;
 }
 
 .btn-outline-info {

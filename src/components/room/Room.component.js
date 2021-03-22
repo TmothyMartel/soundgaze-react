@@ -19,8 +19,7 @@ function Room(props) {
             <div className="card-body room-card-body">
                 <h3 className="card-title room-card-title">Room 1 - $25/hr</h3>
                 <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    l
                 </p>
                 <div>
                 <Button onClick={toggle} data-target="#roomDetailsRM1">
