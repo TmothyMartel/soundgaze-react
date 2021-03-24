@@ -8,21 +8,12 @@ function Room(props) {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="card room-card">
-            <img
-                src="assets/images/jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg"
-                alt="room with instruments"
-            />
-             <div className="row row-content">
-                <AppointmentCalendar />
-            </div>
-            <div className="card-body room-card-body">
-                <h3 className="card-title room-card-title">Room 1 - $25/hr</h3>
-                <p className="card-text">
-                    l
-                </p>
-                <div>
-                <Button onClick={toggle} data-target="#roomDetailsRM1">
+        <div className="container mt-4 mb-4">
+            <div className="row">
+                <div className="col">
+                    <img width="500px" src="assets/images/jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg" alt="room with instruments" />
+                    <h3 className="">Room 1 - $25/hr</h3>
+                    <Button onClick={toggle} data-target="#roomDetailsRM1">
                             {" "}
                             <h4>Learn More</h4>
                         </Button>
@@ -90,6 +81,9 @@ function Room(props) {
                             </p>
                         </div>
                     </Collapse>
+                </div>
+                <div className="col">
+                         <AppointmentCalendar />
                 </div>
             </div>
         </div>

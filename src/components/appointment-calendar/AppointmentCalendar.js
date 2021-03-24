@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Calendar from 'react-calendar';
+import ReservationForm from '../reservation-form/ReservationForm.component'
+import 'react-calendar/dist/Calendar.css';
 
 function AppointmentCalendar() {
     const [ value, onChange ] = useState(new Date());
@@ -9,6 +11,7 @@ function AppointmentCalendar() {
             <Calendar
                 onChange={onChange}
                 value={value} />
+            <ReservationForm />
         </div>
     )
 }
